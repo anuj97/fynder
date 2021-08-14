@@ -1,0 +1,49 @@
+.searchPane {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.searchPaneInput {
+    width: 80%;
+    height: 2.5em;
+    border: 0px;
+    background-color: transparent;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.searchPaneInput:focus {
+    outline: none;
+}
+
+.searchPaneList {
+    color: whitesmoke;
+    width: 100vw;
+    font-size: 2em;
+    background-color: transparent;
+}
+
+.searchResultsPane {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchResult {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.userAvatar {
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.userName {
+    margin: auto;
+}
